@@ -1,7 +1,7 @@
 def even_fib(n):
     f_zero, f_one = 0,1
     while f_zero < n:
-        if f_zero % 2 == 0:
+        if not f_zero % 2:
             yield f_zero
         f_zero, f_one = f_one, f_zero + f_one
 
