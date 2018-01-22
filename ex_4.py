@@ -13,7 +13,6 @@ def ex_4():
 				currentHighestProduct = product
 	return currentHighestProduct
 
-import math
 import time
 start_time = time.time()
 print(ex_4())
